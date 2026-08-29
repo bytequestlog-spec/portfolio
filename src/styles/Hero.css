@@ -1,0 +1,20 @@
+body {
+  background-color: var(--bg-primary);
+}
+
+.name-title {
+  color: var(--text-primary);
+}
+.description {
+  color: var(--text-primary);
+}
+
+.view-work {
+  text-decoration: none;
+  color: var(--text-primary);
+  background-color: var(--accent);
+  border: none;
+  cursor: pointer;
+  padding: 8px;
+  border-radius: 16px;
+}

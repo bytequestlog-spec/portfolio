@@ -1,0 +1,9 @@
+:root {
+  --bg-primary: #0a0a0a;
+  --bg-secondary: #222;
+  --accent: rgb(8, 102, 142);
+  --text-primary: rgb(247, 240, 240);
+  --text-secondary: rgb(160, 160, 160);
+  --accent-hover: rgb(9, 100, 174);
+  --border: rgb(16, 78, 135);
+}

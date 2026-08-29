@@ -1,9 +1,7 @@
 import { useState } from "react";
+import Hero from "./components/Hero";
+
 function App() {
-  return (
-    <>
-      <h1>Hello It's Ellie</h1>
-    </>
-  );
+  return <Hero></Hero>;
 }
 export default App;
