@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&family=Valley+Sans:ital,wght@0,100..900;1,100..900&display=swap");
 :root {
   --bg-primary: #0a0a0a;
   --bg-secondary: #222;
@@ -6,4 +7,20 @@
   --text-secondary: rgb(160, 160, 160);
   --accent-hover: rgb(9, 100, 174);
   --border: rgb(16, 78, 135);
+
+  --font-heading: "Space Grotesk", sans-serif;
+  --font-body: "Vally Sans", sans-serif;
+
+  --space-1: 8px;
+  --space-2: 16px;
+  --space-3: 24px;
+  --space-4: 32px;
+  --space-5: 40px;
+  --space-6: 48px;
+
+  --text-sm: 0.875rem;
+  --text-base: 1rem;
+  --text-lg: 1.25rem;
+  --text-xl: 2rem;
+  --text-2xl: 3rem;
 }
