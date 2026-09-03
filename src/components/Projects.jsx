@@ -4,21 +4,24 @@ function Projects() {
   const projects = [
     {
       id: 1,
-      img: "",
+      img: null,
       title: "Habit Tracker",
       description: "",
       role: "",
-      tech: "",
+      tech: [
+        { name: "React", icon: "react.svg" },
+        { name: "Node.js", icon: "nodejs.svg" },
+      ],
       highlight: "",
-      link: "",
+      links: { github: "", live: "" },
     },
   ];
   return (
-    <>
+    <section id="projects">
       {projects.map((project) => (
-        <ProjectCard key={project.id} project={project}></ProjectCard>
+        <ProjectCard key={project.id} project={project} />
       ))}
-    </>
+    </section>
   );
 }
 export default Projects;

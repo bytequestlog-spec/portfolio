@@ -1,7 +1,12 @@
-import { useState } from "react";
 import Hero from "./components/Hero";
+import Projects from "./components/Projects";
 
 function App() {
-  return <Hero></Hero>;
+  return (
+    <>
+      <Hero></Hero>
+      <Projects />
+    </>
+  );
 }
 export default App;
