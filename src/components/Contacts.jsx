@@ -1,12 +1,21 @@
+import "../styles/Contacts.css";
 function Contacts() {
   return (
-    <section id="Contact">
+    <section id="contact">
       <h2>Contact me</h2>
-      <img alt="email"></img>
-      <a href="mailto:bytequest.log@gmail.com">My email</a>
+      <div className="link-pill">
+        <img alt="email" className="link-icon"></img>
+        <a href="mailto:bytequest.log@gmail.com" className="link-name">
+          My email
+        </a>
+      </div>
 
-      <img alt="github"></img>
-      <a href="github.com">My github</a>
+      <div className="link-pill">
+        <img alt="github" className="link-icon"></img>
+        <a href="https://github.com/bytequestlog-spec" className="link-name">
+          My github
+        </a>
+      </div>
     </section>
   );
 }

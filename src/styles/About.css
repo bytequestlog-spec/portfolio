@@ -1,0 +1,14 @@
+#about {
+  padding: var(--space-3);
+}
+
+h2 {
+  font-family: var(--font-heading);
+  font-size: var(--text-xl);
+  color: var(--text-primary);
+}
+
+p {
+  font-family: var(--font-body);
+  color: var(--text-primary);
+}

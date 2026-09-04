@@ -1,0 +1,61 @@
+.card-container {
+  background-color: var(--bg-secondary);
+  padding: var(--space-3);
+  border-radius: var(--space-2);
+  cursor: pointer;
+  border: 1px solid var(--border);
+}
+
+.title {
+  font-family: var(--font-body);
+  font-size: var(--text-lg);
+  color: var(--text-primary);
+}
+
+.read-more {
+  color: var(--accent);
+}
+
+.tech {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.tech-icon {
+  margin-right: var(--space-1);
+}
+
+.tech-name {
+  font-family: var(--font-body);
+  color: var(--text-secondary);
+}
+
+.link {
+  text-decoration: none;
+  color: var(--accent);
+}
+
+.link:hover {
+  text-decoration: underline;
+}
+
+.expand-wrapper {
+  display: grid;
+  grid-template-rows: 0fr;
+  transition: grid-template-rows 0.3s ease;
+}
+
+.expand-wrapper.expanded {
+  grid-template-rows: 1fr;
+}
+
+.expand-inner {
+  overflow: hidden;
+}
+
+.desc,
+.role,
+.highlight {
+  font-family: var(--font-body);
+  color: var(--text-primary);
+}

@@ -9,7 +9,7 @@ function Projects() {
       description: "",
       role: "",
       tech: [
-        { name: "React", icon: "react.svg" },
+        { name: "React", icon: "/images/tech/react.svg" },
         { name: "Node.js", icon: "nodejs.svg" },
       ],
       highlight: "",
