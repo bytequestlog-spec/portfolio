@@ -6,7 +6,12 @@
   transition:
     transform 0.2s ease,
     box-shadow 0.2s ease;
-  max-width: 300px;
+}
+
+@media (max-width: 500px) {
+  .card-container {
+    max-width: 100%;
+  }
 }
 
 .card-container:hover {
@@ -34,10 +39,9 @@
 }
 .tech-icon {
   width: 100%;
+  height: var(--space-3);
   margin-right: 4px;
   gap: var(--space-1);
-  width: 200px;
-  height: var(--space-3);
 }
 
 .tech-row {
@@ -86,12 +90,6 @@
   transition:
     transform 0.3s ease,
     filter 0.3s ease;
-}
-
-.tech-icon {
-  width: var(--space-2);
-  height: var(--space-2);
-  margin-right: var(--space-1);
 }
 
 .card-container:hover .project-img {

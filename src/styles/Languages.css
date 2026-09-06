@@ -5,7 +5,7 @@
   padding: var(--space-4);
   border-radius: var(--space-2);
   transition:
-    transfrom 0.3s ease,
+    transform 0.3s ease,
     box-shadow 0.3s ease,
     border 0.3s ease;
 }
@@ -19,6 +19,8 @@
 .language-item {
   display: flex;
   justify-content: space-between;
+  gap: var(--space-2);
+  width: 100%;
   align-items: center;
   color: var(--accent);
   border-color: var(--accent);
