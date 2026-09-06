@@ -31,8 +31,32 @@ body {
   cursor: pointer;
   padding: var(--space-1) var(--space-3);
   border-radius: var(--space-2);
+  transition:
+    box-shadow 0.3s ease,
+    transform 0.3s ease,
+    border 0.3s ease;
 }
 
 .view-work:hover {
   background-color: var(--accent-hover);
+}
+
+.hero-img {
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: var(--space-3);
+  border: 1px solid transparent;
+  transition:
+    box-shadow 0.3s ease,
+    transform 0.3s ease,
+    border 0.3s ease;
+}
+
+.hero-img:hover,
+.view-work:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 16px rgba(52, 67, 137, 0.5);
+  border-color: var(--border);
 }

@@ -6,44 +6,47 @@ function ProjectCard({ project }) {
 
   return (
     <>
-      <div className="card-container">
+      <div
+        className="card-container"
+        onClick={() => setIsExpanded(!isExpanded)}
+      >
         <img src={project.img} className="project-img"></img>
         <div className="title">{project.title}</div>
         {!isExpanded && (
           <>
-            <div
-              onClick={() => setIsExpanded(!isExpanded)}
-              className="read-more"
-            >
-              Read more ...
-            </div>
+            <div className="read-more">Read more ...</div>
           </>
         )}
         <div className={`expand-wrapper ${isExpanded ? "expanded" : ""}`}>
           <div className="expand-inner">
-            <div className="desc">{project.description}</div>
-            <div className="role">{project.role}</div>
-            {project.tech.map((tech) => (
-              <div key={tech.name} className="tech">
+            <div className="view-buttons">
+              <a href={project.links.github} className="link view-btn">
                 <img
-                  alt={tech.name}
-                  src={tech.icon}
+                  src="/images/icons/github.webp"
                   className="tech-icon"
                 ></img>
-
-                <span className="tech-name">{tech.name}</span>
-              </div>
-            ))}
-
-            <div className="highlight">{project.highlight}</div>
-            <a href={project.links.github} className="link">
-              GitHub repo
-            </a>
-            {project.links.live && (
-              <a href={project.links.live} className="link">
-                Live Demo
+                View code
               </a>
-            )}
+              <a href={project.links.live} className="link view-btn">
+                <img src="/images/icons/demo.webp" className="tech-icon"></img>
+                View demo
+              </a>
+            </div>
+            <div className="desc">{project.description}</div>
+            <div className="role">{project.role}</div>
+            <div className="highlight">{project.highlight}</div>
+            <div className="tech-row">
+              {project.tech.map((tech) => (
+                <div key={tech.name} className="tech">
+                  <img
+                    alt={tech.name}
+                    src={tech.icon}
+                    className="tech-icon"
+                  ></img>
+                </div>
+              ))}
+            </div>
+            <div className="read-less">Read less </div>
           </div>
         </div>
       </div>

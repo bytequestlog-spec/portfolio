@@ -1,0 +1,8 @@
+.languages-about-row {
+  display: flex;
+  gap: var(--space-4);
+}
+
+.languages-about-row > section {
+  flex: 1;
+}

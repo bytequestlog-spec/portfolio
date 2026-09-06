@@ -2,11 +2,12 @@
 :root {
   --bg-primary: #0a0a0a;
   --bg-secondary: #222;
-  --accent: rgb(8, 102, 142);
+  --accent: rgb(9, 91, 126);
   --text-primary: rgb(247, 240, 240);
   --text-secondary: rgb(160, 160, 160);
-  --accent-hover: rgb(9, 100, 174);
-  --border: rgb(16, 78, 135);
+  --accent-hover: rgb(9, 91, 158);
+  --border: rgb(6, 68, 126);
+  --nav: rgba(6, 31, 51, 0.6);
 
   --font-heading: "Space Grotesk", sans-serif;
   --font-body: "Vally Sans", sans-serif;

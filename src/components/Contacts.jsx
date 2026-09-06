@@ -2,18 +2,26 @@ import "../styles/Contacts.css";
 function Contacts() {
   return (
     <section id="contact">
-      <h2>Contact me</h2>
+      <h2>Contact</h2>
       <div className="link-pill">
-        <img alt="email" className="link-icon"></img>
+        <img
+          alt="email"
+          className="link-icon"
+          src="/images/icons/gmail.webp"
+        ></img>
         <a href="mailto:bytequest.log@gmail.com" className="link-name">
-          My email
+          My Email
         </a>
       </div>
 
       <div className="link-pill">
-        <img alt="github" className="link-icon"></img>
+        <img
+          alt="github"
+          className="link-icon"
+          src="/images/icons/github.webp"
+        ></img>
         <a href="https://github.com/bytequestlog-spec" className="link-name">
-          My github
+          My GitHub
         </a>
       </div>
     </section>

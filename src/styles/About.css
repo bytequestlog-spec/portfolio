@@ -1,5 +1,21 @@
-#about {
-  padding: var(--space-3);
+#about,
+#contact {
+  background-color: var(--bg-secondary);
+  border-radius: var(--space-2);
+  padding: var(--space-4);
+  margin: var(--space-4);
+  border: 1px solid transparent;
+  transition:
+    transform 0.3s ease,
+    box-shadow 0.3s ease,
+    border 0.3s ease;
+}
+
+#about:hover,
+#contact:hover {
+  border-color: var(--border);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 16px rgba(52, 67, 137, 0.3);
 }
 
 h2 {
@@ -11,4 +27,18 @@ h2 {
 p {
   font-family: var(--font-body);
   color: var(--text-primary);
+}
+
+.resume-btn {
+  background-color: var(--accent);
+  border: none;
+  padding: var(--space-1) var(--space-2);
+  border-radius: var(--space-1);
+  cursor: pointer;
+  color: var(--text-primary);
+}
+
+.resume-btn:hover {
+  background-color: var(--accent-hover);
+  transform: translateY(-1px);
 }
