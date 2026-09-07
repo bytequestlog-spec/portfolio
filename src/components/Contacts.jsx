@@ -20,7 +20,12 @@ function Contacts() {
           className="link-icon"
           src="/images/icons/github.webp"
         ></img>
-        <a href="https://github.com/bytequestlog-spec" className="link-name">
+        <a
+          href="https://github.com/bytequestlog-spec"
+          className="link-name"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           My GitHub
         </a>
       </div>

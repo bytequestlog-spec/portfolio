@@ -10,7 +10,11 @@ function ProjectCard({ project }) {
         className="card-container"
         onClick={() => setIsExpanded(!isExpanded)}
       >
-        <img src={project.img} className="project-img"></img>
+        <img
+          src={project.img}
+          className="project-img"
+          alt={project.title}
+        ></img>
         <div className="title">{project.title}</div>
         {!isExpanded && (
           <>
@@ -20,15 +24,32 @@ function ProjectCard({ project }) {
         <div className={`expand-wrapper ${isExpanded ? "expanded" : ""}`}>
           <div className="expand-inner">
             <div className="view-buttons">
-              <a href={project.links.github} className="link view-btn">
+              <a
+                href={project.links.github}
+                className="link view-btn"
+                onClick={(e) => e.stopPropagation()}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <img
                   src="/images/icons/github.webp"
-                  className="tech-icon"
+                  className="view-btn-icon"
+                  alt="Github"
                 ></img>
                 View code
               </a>
-              <a href={project.links.live} className="link view-btn">
-                <img src="/images/icons/demo.webp" className="tech-icon"></img>
+              <a
+                href={project.links.live}
+                className="link view-btn"
+                onClick={(e) => e.stopPropagation()}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img
+                  src="/images/icons/demo.webp"
+                  className="view-btn-icon"
+                  alt="Live demo"
+                ></img>
                 View demo
               </a>
             </div>

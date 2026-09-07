@@ -39,7 +39,7 @@
 }
 .tech-icon {
   width: 100%;
-  height: var(--space-3);
+  height: var(--space-4);
   margin-right: 4px;
   gap: var(--space-1);
 }
@@ -101,6 +101,7 @@
   display: inline-flex;
   align-items: center;
   gap: var(--space-1);
+  white-space: nowwrap;
   text-decoration: none;
   color: var(--text-primary);
   background-color: var(--bg-primary);
@@ -118,4 +119,9 @@
   display: flex;
   gap: var(--space-2);
   margin-bottom: var(--space-2);
+}
+
+.view-btn-icon {
+  width: 18px;
+  height: 18px;
 }

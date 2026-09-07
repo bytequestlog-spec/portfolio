@@ -1,3 +1,74 @@
 html {
   scroll-behavior: smooth;
+  overflow-anchor: none;
+}
+
+.background-orbs {
+  position: fixed;
+  inset: 0;
+  overflow: hidden;
+  z-index: -1;
+  pointer-events: none;
+}
+
+.orb {
+  position: absolute;
+  border-radius: 50%;
+  background: var(--accent);
+  filter: blur(100px);
+  opacity: 0.18;
+}
+
+.orb-1 {
+  width: 350px;
+  height: 350px;
+  top: 5%;
+  left: 10%;
+  animation: drift1 22s ease-in-out infinite;
+}
+
+.orb-2 {
+  width: 300px;
+  height: 300px;
+  top: 55%;
+  left: 75%;
+  animation: drift2 26s ease-in-out infinite;
+}
+
+.orb-3 {
+  width: 320px;
+  height: 320px;
+  top: 85%;
+  left: 25%;
+  animation: drift3 30s ease-in-out infinite;
+}
+
+@keyframes drift1 {
+  0%,
+  100% {
+    transform: translate(0, 0);
+  }
+  50% {
+    transform: translate(60px, 40px);
+  }
+}
+
+@keyframes drift2 {
+  0%,
+  100% {
+    transform: translate(0, 0);
+  }
+  50% {
+    transform: translate(-50px, 60px);
+  }
+}
+
+@keyframes drift3 {
+  0%,
+  100% {
+    transform: translate(0, 0);
+  }
+  50% {
+    transform: translate(40px, -50px);
+  }
 }

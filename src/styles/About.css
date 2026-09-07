@@ -36,6 +36,7 @@ p {
   border-radius: var(--space-1);
   cursor: pointer;
   color: var(--text-primary);
+  text-decoration: none;
 }
 
 .resume-btn:hover {
