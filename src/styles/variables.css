@@ -2,7 +2,7 @@
 :root {
   --bg-primary: #0a0a0a;
   --bg-secondary: #222;
-  --accent: rgb(9, 91, 126);
+  --accent: #0082b4 /* rgb(9, 91, 126)*/;
   --text-primary: rgb(247, 240, 240);
   --text-secondary: rgb(160, 160, 160);
   --accent-hover: rgb(9, 91, 158);
