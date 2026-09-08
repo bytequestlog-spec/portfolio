@@ -58,7 +58,6 @@ body {
   margin-bottom: var(--space-3);
   border: 1px solid transparent;
   transition: box-shadow 0.3s ease;
-  animation: float 3s ease in-out infinite;
   animation:
     fadeUp 0.6s ease-out forwards,
     float 3s ease-in-out infinite 0.6s;

@@ -9,16 +9,20 @@ function Projects() {
       img: "/images/projects/habit-tracker.png",
       title: "Habit Tracker",
       description:
-        "A full-stack habit tracking app that helps users build and maintain daily routines, with authentication and persistent progress tracking",
-      role: "Solo project built the frontend, REST API, auth system and database from scratch",
+        "A full-stack habit tracking app that helps users build and maintain daily routines, with authentication and persistent progress tracking.",
+      role: "Solo project built the frontend, REST API, auth system and database from scratch.",
       tech: [
-        { name: "React", icon: "/images/tech/react.webp" },
-        { name: "Vite", icon: "/images/tech/vite.webp" },
-        { name: "Node.js", icon: "/images/tech/nodejs.webp" },
-        { name: "PostgreSQL", icon: "/images/tech/psql.webp" },
+        { name: "React", icon: "https://cdn.simpleicons.org/react" },
+        { name: "Vite", icon: "https://cdn.simpleicons.org/vite" },
+        { name: "Node.js", icon: "https://cdn.simpleicons.org/nodedotjs" },
+        { name: "PostgreSQL", icon: "https://cdn.simpleicons.org/postgresql" },
+        {
+          name: "Express",
+          icon: "https://cdn.simpleicons.org/express/ffffff",
+        },
       ],
       highlight:
-        "Started with vanilla JS, then rebuilt the frontend in React as my first React project",
+        "Started with vanilla JS, then rebuilt the frontend in React as my first project with the framework.",
       links: {
         github: "https://github.com/bytequestlog-spec/habit-tracker.git",
         live: "https://habittracker-six-rho.vercel.app/",
@@ -29,14 +33,17 @@ function Projects() {
       img: "/images/projects/maison-elegance.jpg",
       title: "Maison Elegance",
       description:
-        "A luxury car dealership website built as a group project, with a full cart, checkout, and order management system",
-      role: "Owned all cart-related functionality and the admin orders page in a team of developers",
+        "A luxury car dealership website built as a group project, with a full cart, checkout, and order management system.",
+      role: "Owned all cart-related functionality and the admin orders page in a team of developers.",
       tech: [
-        { name: "Html", icon: "/images/tech/html.webp" },
-        { name: "Css", icon: "/images/tech/css.webp" },
-        { name: "JavaScript", icon: "/images/tech/js.webp" },
-        { name: "Php", icon: "/images/tech/php.webp" },
-        { name: "MySQL", icon: "/images/tech/mysql.webp" },
+        { name: "Html", icon: "https://cdn.simpleicons.org/html5" },
+        { name: "Css", icon: "https://cdn.simpleicons.org/css/663399" },
+        {
+          name: "JavaScript",
+          icon: "https://cdn.simpleicons.org/javascript",
+        },
+        { name: "Php", icon: "https://cdn.simpleicons.org/php" },
+        { name: "MySQL", icon: "https://cdn.simpleicons.org/mysql" },
       ],
       highlight:
         "Rewrote the cart and checkout flow to match the real database schema, and built a floating cart sidebar and post-purchase confirmation page.",

@@ -26,7 +26,7 @@ function ProjectCard({ project }) {
             <div className="view-buttons">
               <a
                 href={project.links.github}
-                className="link view-btn"
+                className="view-btn"
                 onClick={(e) => e.stopPropagation()}
                 target="_blank"
                 rel="noopener noreferrer"
@@ -40,7 +40,7 @@ function ProjectCard({ project }) {
               </a>
               <a
                 href={project.links.live}
-                className="link view-btn"
+                className="view-btn"
                 onClick={(e) => e.stopPropagation()}
                 target="_blank"
                 rel="noopener noreferrer"

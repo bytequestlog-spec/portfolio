@@ -10,7 +10,7 @@ function Hero() {
         height="160"
       ></img>
       <h1 className="name-title">Hi, it's Ellie</h1>
-      <p className="description">I'm a Full-stack web developer</p>
+      <p className="description">I'm a full-stack web developer</p>
       <a className="view-work" href="#projects">
         View work
       </a>

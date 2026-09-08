@@ -24,6 +24,7 @@
   font-family: var(--font-body);
   font-size: var(--text-lg);
   color: var(--text-primary);
+  margin-bottom: var(--space-2);
 }
 
 .read-more,
@@ -40,8 +41,7 @@
 .tech-icon {
   width: 100%;
   height: var(--space-4);
-  margin-right: 4px;
-  gap: var(--space-1);
+  margin-right: var(--space-1);
 }
 
 .tech-row {
@@ -49,15 +49,6 @@
   gap: var(--space-1);
   margin-top: var(--space-2);
   margin-bottom: var(--space-2);
-}
-
-.link {
-  text-decoration: none;
-  color: var(--accent);
-}
-
-.link:hover {
-  text-decoration: underline;
 }
 
 .expand-wrapper {
@@ -101,7 +92,7 @@
   display: inline-flex;
   align-items: center;
   gap: var(--space-1);
-  white-space: nowwrap;
+  white-space: nowrap;
   text-decoration: none;
   color: var(--text-primary);
   background-color: var(--bg-primary);
