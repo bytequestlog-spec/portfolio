@@ -4,11 +4,17 @@
   border-radius: var(--space-2);
   padding: var(--space-4);
   margin: var(--space-4);
+
   border: 1px solid transparent;
   transition:
     transform 0.3s ease,
     box-shadow 0.3s ease,
     border 0.3s ease;
+}
+
+#about {
+  margin-bottom: 0px;
+  margin-top: 0px;
 }
 
 #about:hover,
@@ -38,9 +44,10 @@ h2 {
   cursor: pointer;
   color: var(--text-primary);
   text-decoration: none;
+  transition: transform 0.3s ease;
 }
 
 .resume-btn:hover {
   background-color: var(--accent-hover);
-  transform: translateY(-1px);
+  transform: translateY(-2px);
 }

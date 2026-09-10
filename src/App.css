@@ -1,6 +1,6 @@
 .languages-about-row {
   display: flex;
-  gap: var(--space-4);
+  gap: var(--space-1);
 }
 
 @media (max-width: 700px) {
@@ -17,8 +17,19 @@
   #skills,
   #experience,
   #about,
-  #contact {
+  #contact,
+  .footer {
     margin: var(--space-2);
     padding: var(--space-2);
   }
+}
+
+.footer {
+  background-color: var(--bg-secondary);
+  color: var(--text-secondary);
+  border-radius: var(--space-2);
+  padding: var(--space-2) var(--space-4);
+  text-align: left;
+  margin: 0px var(--space-4);
+  border-top: 1px solid var(--bg-primary);
 }

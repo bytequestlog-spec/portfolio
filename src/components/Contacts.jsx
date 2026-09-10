@@ -10,7 +10,7 @@ function Contacts() {
           src="/images/icons/gmail.webp"
         ></img>
         <a href="mailto:bytequest.log@gmail.com" className="link-name">
-          My Email
+          bytequest.log@gmail.com
         </a>
       </div>
 

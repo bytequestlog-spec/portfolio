@@ -2,6 +2,8 @@
   border: 1px solid transparent;
   background-color: var(--bg-secondary);
   margin: var(--space-4);
+  margin-bottom: 0px;
+  margin-top: 0px;
   padding: var(--space-4);
   border-radius: var(--space-2);
   transition:
