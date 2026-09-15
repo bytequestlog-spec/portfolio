@@ -10,6 +10,7 @@
   padding: var(--space-1) var(--space-2);
   backdrop-filter: blur(10px);
   border-bottom: 1px solid transparent;
+  background-color: var(--nav);
 }
 
 .nav-logo {
@@ -49,7 +50,7 @@
   background: none;
   border: none;
   color: var(--text-primary);
-  font-size: var(--text-sm);
+  font-size: var(--text-lg);
   cursor: pointer;
 }
 

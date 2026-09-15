@@ -28,7 +28,9 @@ function App() {
 
       <Contacts />
       <footer className="footer">
-        &copy; | <span className="footer-span">Ellie</span>
+        &copy; {"  "} | {"  "} {new Date().getFullYear()}
+        {"  "}
+        <span className="footer-span">Ellie</span>
       </footer>
     </>
   );

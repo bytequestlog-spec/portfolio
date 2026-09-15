@@ -10,9 +10,6 @@ function About() {
         I'm currently focused on growing my skills through real-world projects
         and helping people turn their ideas into working websites and apps.
       </p>
-      <a href="/resume.pdf" download className="resume-btn">
-        Download resume
-      </a>
     </section>
   );
 }

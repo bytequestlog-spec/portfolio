@@ -26,7 +26,7 @@ function ProjectCard({ project }) {
               onClick={(e) => e.stopPropagation()}
             >
               <img
-                src="https://cdn.simpleicons.org/github/ffffff"
+                src="https://cdn.simpleicons.org/github/fff"
                 className="view-btn-icon"
                 alt="GitHub"
               />

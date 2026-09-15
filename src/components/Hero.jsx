@@ -4,7 +4,7 @@ function Hero() {
     <section id="hero">
       <img
         alt="pfp"
-        src="images/pfp.jpg"
+        src="images/pfp.jpe"
         className="hero-img"
         width="160"
         height="160"

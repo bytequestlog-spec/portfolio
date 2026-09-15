@@ -25,7 +25,7 @@ function Projects() {
         "Started with vanilla JS, then rebuilt the frontend in React as my first project with the framework.",
       links: {
         github: "https://github.com/bytequestlog-spec/habit-tracker.git",
-        live: "https://habittracker-six-rho.vercel.app/",
+        live: "https://ellie-habit-tracker.vercel.app/",
       },
     },
     {
@@ -50,7 +50,7 @@ function Projects() {
       links: {
         github:
           "https://github.com/bytequestlog-spec/uni-ecommerce-project.git",
-        live: "/images/maison-elegance.mp4",
+        live: "https://youtu.be/tejKLpidKrI",
       },
     },
   ];
