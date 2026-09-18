@@ -1,6 +1,16 @@
+#projects {
+  margin: 0px var(--space-4);
+}
+.projects-title {
+  font-family: var(--font-heading);
+  font-size: var(--text-xl);
+  color: var(--text-primary);
+  margin-bottom: var(--space-3);
+  padding: var(--space-2);
+}
+
 .projects-grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
   gap: var(--space-2);
-  padding: var(--space-4);
 }

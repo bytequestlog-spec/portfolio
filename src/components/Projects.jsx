@@ -55,10 +55,13 @@ function Projects() {
     },
   ];
   return (
-    <section id="projects" className="projects-grid">
-      {projects.map((project) => (
-        <ProjectCard key={project.id} project={project} />
-      ))}
+    <section id="projects">
+      <h2 className="projects-title">My projects</h2>
+      <div className="projects-grid">
+        {projects.map((project) => (
+          <ProjectCard key={project.id} project={project}></ProjectCard>
+        ))}
+      </div>
     </section>
   );
 }
