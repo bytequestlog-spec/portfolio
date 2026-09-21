@@ -8,9 +8,16 @@
   justify-content: center;
   gap: var(--space-3);
   padding: var(--space-1) var(--space-2);
-  backdrop-filter: blur(10px);
   border-bottom: 1px solid transparent;
+}
+
+.navbar::before {
+  content: "";
+  position: absolute;
+  inset: 0;
   background-color: var(--nav);
+  backdrop-filter: blur(10px);
+  z-index: -1;
 }
 
 .nav-logo {
@@ -65,7 +72,6 @@
   .nav-links {
     background-color: var(--bg-secondary);
     flex-direction: column;
-
     position: fixed;
     top: 0;
     right: 0;
@@ -75,7 +81,7 @@
     justify-self: unset;
     transform: translateX(100%);
     transition: transform 0.3s ease;
-    z-index: 200;
+    z-index: 300;
   }
   .nav-links.open {
     transform: translateX(0);

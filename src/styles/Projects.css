@@ -14,3 +14,9 @@
   grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
   gap: var(--space-2);
 }
+
+@media (max-width: 400px) {
+  .projects-grid {
+    grid-template-columns: 1fr;
+  }
+}

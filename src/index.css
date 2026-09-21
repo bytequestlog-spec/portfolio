@@ -72,3 +72,10 @@ html {
     transform: translate(40px, -50px);
   }
 }
+
+@media (max-width: 500px) {
+  .orb {
+    width: 150px !important;
+    height: 150px !important;
+  }
+}

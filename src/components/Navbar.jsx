@@ -4,6 +4,7 @@ import "../styles/Navbar.css";
 
 function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
+
   return (
     <nav className="navbar">
       <a href="#hero" className="nav-logo" onClick={() => setIsOpen(false)}>
