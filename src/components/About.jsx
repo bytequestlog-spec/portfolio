@@ -5,10 +5,11 @@ function About() {
     <section id="about">
       <h2>About Me</h2>
       <p className="intro">
-        I'm a Computer Science student and web developer who builds full-stack
-        projects from the ground up, frontend, backend and database included.
-        I'm currently focused on growing my skills through real-world projects
-        and helping people turn their ideas into working websites and apps.
+        I'm a Computer Science student and web developer who enjoys turning
+        ideas into functional websites and applications. I work across the
+        frontend and backend, building projects from the ground up and exploring
+        how everything fits together. I'm always looking for new challenges that
+        push me to learn, build, and improve.
       </p>
     </section>
   );
